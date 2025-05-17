@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ExerciciosDiversos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{384DE1EA-0212-4D92-8381-235460186BA1}|ExerciciosDiversos\\ExerciciosDiversos.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\exerciciosdiversos\\exerciciosdiversos\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384DE1EA-0212-4D92-8381-235460186BA1}|ExerciciosDiversos\\ExerciciosDiversos.csproj|solutionrelative:exerciciosdiversos\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{384DE1EA-0212-4D92-8381-235460186BA1}|ExerciciosDiversos\\ExerciciosDiversos.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\exerciciosdiversos\\exerciciosdiversos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{384DE1EA-0212-4D92-8381-235460186BA1}|ExerciciosDiversos\\ExerciciosDiversos.csproj|solutionrelative:exerciciosdiversos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -39,12 +43,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Exercicios.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ExerciciosDiversos\\ExerciciosDiversos\\Exercicios.cs",
+              "RelativeDocumentMoniker": "ExerciciosDiversos\\Exercicios.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ExerciciosDiversos\\ExerciciosDiversos\\Exercicios.cs*",
+              "RelativeToolTip": "ExerciciosDiversos\\Exercicios.cs*",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAwNIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:12:51.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ExerciciosDiversos\\ExerciciosDiversos\\Program.cs",
               "RelativeDocumentMoniker": "ExerciciosDiversos\\Program.cs",
               "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ExerciciosDiversos\\ExerciciosDiversos\\Program.cs",
               "RelativeToolTip": "ExerciciosDiversos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T12:22:25.776Z",
               "EditorCaption": ""
@@ -58,6 +75,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

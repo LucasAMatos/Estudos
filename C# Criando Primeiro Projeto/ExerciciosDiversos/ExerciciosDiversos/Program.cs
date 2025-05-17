@@ -1,71 +1,67 @@
-﻿using System.Runtime.Intrinsics.X86;
-using System;
-ExercicioAdivinhacao();
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using ExerciciosDiversos;
 
-void ExercicioNota()
+class Program
 {
-    // Criar uma variável chamada notaMedia e atribua um valor inteiro a ela.Caso seu valor seja maior ou igual a 5, escreva na tela "Nota suficiente para aprovação".
-    int notaMedia = 0;
-    Console.Write("Digite o valor da média do aluno:");
-    notaMedia = int.Parse(Console.ReadLine());
-
-    if (notaMedia >= 5)
+    static void Main(string[] args)
     {
-        Console.WriteLine("Nota suficiente para aprovação");
-    }
-}
+        var exercicios = new Exercicios();
+        bool continuar = true;
 
-void ExercicioLista()
-{
-    //Criar uma lista de linguagens de programação, com as linguagens C#, Java e JavaScript.
-    List<string> Linguagens = new List<string>(){
-    "C#",
-    "Java",
-    "Javastript"
-};
+        while (continuar)
+        {
+            Thread.Sleep(2000);
+            Console.Clear();
+            Console.WriteLine("Qual exercício você quer testar?\n");
 
-    //Exibir o valor "C#" no console, utilizando a lista criada no exercício anterior.
-    Console.WriteLine(Linguagens.First());
+            var metodos = typeof(Exercicios)
+                .GetMethods(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly)
+                .Where(m => m.ReturnType == typeof(void)
+                            && m.GetParameters().Length == 0
+                            && !m.Name.StartsWith("<")
+                            && m.Name != "RetorneAoMenuAnterior")
+                .ToList();
 
-    //Criar um programa que, dado a entrada de dados de um número n inteiro, a partir do teclado, exibir a n-ésima posição de uma lista.
-    Console.Write($"Digite uma posição na lista de 1 a {Linguagens.Count}");
+            var opcoes = new Dictionary<int, MethodInfo>();
 
-    int opcao = int.Parse(Console.ReadLine());
+            for (int i = 0; i < metodos.Count; i++)
+            {
+                Console.WriteLine($"{i + 1} - {FormatarNomeMetodo(metodos[i].Name)}");
+                opcoes[i + 1] = metodos[i];
+            }
 
-    if (opcao < 1 || opcao > Linguagens.Count)
-    {
-        Console.WriteLine("Opção inválida");
-        return;
-    }
+            Console.WriteLine("\n-1 - Sair");
+            Console.Write("\nEscolha uma opção: ");
+            var entrada = Console.ReadLine();
 
-    Console.WriteLine(Linguagens[opcao - 1]);
-}
+            if (entrada == "-1")
+            {
+                continuar = false;
+                break;
+            }
 
-void ExercicioAdivinhacao()
-{
-    int randomico = new Random().Next(1, 100);
-    Console.WriteLine("Pensei em um número entre 1 e 100 você consegue acertar?");
+            if (int.TryParse(entrada, out int escolha) && opcoes.ContainsKey(escolha))
+            {
+                Console.Clear();
+                opcoes[escolha].Invoke(exercicios, null);
+            }
+            else
+            {
+                Console.WriteLine("Opção inválida. Pressione qualquer tecla para tentar novamente...");
+                Console.ReadKey();
+            }
+        }
 
-    int numeroDigitado = int.Parse(Console.ReadLine());
-
-    if (numeroDigitado < 1 || numeroDigitado > 100)
-    {
-        Console.WriteLine("Você não sabe brincar!");
-        return;
-    }
-
-    if (numeroDigitado > randomico)
-    {
-        Console.WriteLine("Chutou Alto Demais! Deveria tentar ser astronauta!");
-        return;
+        Console.WriteLine("Até a próxima!");
     }
 
-    if (numeroDigitado < randomico)
+    static string FormatarNomeMetodo(string nome)
     {
-        Console.WriteLine("Nossa você me dá tão pouco assim??");
-        return;
+        // Converte o nome do método para algo mais legível
+        return System.Text.RegularExpressions.Regex
+            .Replace(nome, "([a-z])([A-Z])", "$1 $2");
     }
-
-    Console.WriteLine("Como você sabia?");
-    return;
 }
