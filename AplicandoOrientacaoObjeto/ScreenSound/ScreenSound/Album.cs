@@ -1,32 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ScreenSound
+﻿class Album
 {
-    class Album
+    private List<Musica> musicas = new List<Musica>();
+
+    public Album(string nome)
     {
-        private List<Musica> musicas = new List<Musica>();
+        Nome = nome;
+    }
 
-        public string Nome { get; set; }
+    public string Nome { get; }
+    public int DuracaoTotal => musicas.Sum(m => m.Duracao);
 
-        public int DuracaoTotal => musicas.Sum(m => m.Duracao);
+    public void AdicionarMusica(Musica musica)
+    {
+        musicas.Add(musica);
+    }
 
-        public void AdicionarMusica(Musica musica)
+    public void ExibirMusicasDoAlbum()
+    {
+        Console.WriteLine($"Lista de músicas do álbum {Nome}:\n");
+        foreach (var musica in musicas)
         {
-            musicas.Add(musica);
+            Console.WriteLine($"Música: {musica.Nome}");
         }
-
-        public void ExibirMusicasDoAlbum()
-        {
-            Console.WriteLine($"Lista de músicas do álbum {Nome}");
-            foreach (Musica musica in musicas)
-            {
-                Console.WriteLine($"musica: {musica.Nome}");
-            }
-            Console.WriteLine($"duração completa do àlbum: {DuracaoTotal}");
-        }
+        Console.WriteLine($"\nPara ouvir este álbum inteiro você precisa de {DuracaoTotal}");
     }
 }
