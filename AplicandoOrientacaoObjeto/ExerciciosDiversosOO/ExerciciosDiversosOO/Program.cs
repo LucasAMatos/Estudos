@@ -1,8 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ExerciciosDiversosOO;
+﻿using ExerciciosDiversosOO;
 
-int a = 2;
-int b = 3;
-Console.WriteLine($"A soma entre {a} e {b} é {Calculadora.Somar(a, b)}");
+Titular titular = new Titular("Silvia Silva", "000.000.001-91", "Rua da Gloria, 123");
+Conta minhaConta = new Conta(titular, 134, 5859, 0);
 
+Console.WriteLine(minhaConta.Informacoes);
 
+CatalogoJogos JogosDeFutebol = new CatalogoJogos("ESPORTES 2008");
+
+JogosDeFutebol.AdicionarJogo(new Jogo("FIFA 2008", "LIVRE", "Esporte", 2, "PC"));
+JogosDeFutebol.AdicionarJogo(new Jogo("NBA 2008", "LIVRE", "Esporte", 2, "PC"));
+JogosDeFutebol.AdicionarJogo(new Jogo("MLB 2008", "LIVRE", "Esporte", 2, "PC"));
+
+JogosDeFutebol.ExibirCatalogo();
