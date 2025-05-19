@@ -1,0 +1,15 @@
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\bin\Debug\net8.0\ExerciciosDiversosOO.exe
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\bin\Debug\net8.0\ExerciciosDiversosOO.deps.json
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\bin\Debug\net8.0\ExerciciosDiversosOO.runtimeconfig.json
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\bin\Debug\net8.0\ExerciciosDiversosOO.dll
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\bin\Debug\net8.0\ExerciciosDiversosOO.pdb
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.AssemblyInfoInputs.cache
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.AssemblyInfo.cs
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.csproj.CoreCompileInputs.cache
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.sourcelink.json
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.dll
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\refint\ExerciciosDiversosOO.dll
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.pdb
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ExerciciosDiversosOO.genruntimeconfig.cache
+C:\Estudos\Estudos\AplicandoOrientacaoObjeto\ExerciciosDiversosOO\ExerciciosDiversosOO\obj\Debug\net8.0\ref\ExerciciosDiversosOO.dll
