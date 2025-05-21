@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|solutionrelative:exerciciosdiversosoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\exerciciosdiversosoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|solutionrelative:exerciciosdiversosoo\\exerciciosdiversosoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\catalogojogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|solutionrelative:exerciciosdiversosoo\\catalogojogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|solutionrelative:exerciciosdiversosoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\titular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|solutionrelative:exerciciosdiversosoo\\titular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\exerciciosdiversosoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|solutionrelative:exerciciosdiversosoo\\exerciciosdiversosoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94600A70-4D5B-47FE-9963-8A5328B791FC}|ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj|c:\\estudos\\estudos\\aplicandoorientacaoobjeto\\exerciciosdiversosoo\\exerciciosdiversosoo\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,52 +74,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Jogo.cs",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Jogo.cs",
               "RelativeDocumentMoniker": "ExerciciosDiversosOO\\Jogo.cs",
               "ToolTip": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Jogo.cs",
               "RelativeToolTip": "ExerciciosDiversosOO\\Jogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:38:21.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CatalogoJogos.cs",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\CatalogoJogos.cs",
               "RelativeDocumentMoniker": "ExerciciosDiversosOO\\CatalogoJogos.cs",
               "ToolTip": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\CatalogoJogos.cs",
               "RelativeToolTip": "ExerciciosDiversosOO\\CatalogoJogos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:36:06.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Conta.cs",
               "RelativeDocumentMoniker": "ExerciciosDiversosOO\\Conta.cs",
               "ToolTip": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Conta.cs",
               "RelativeToolTip": "ExerciciosDiversosOO\\Conta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:31:33.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Titular.cs",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Titular.cs",
               "RelativeDocumentMoniker": "ExerciciosDiversosOO\\Titular.cs",
               "ToolTip": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Titular.cs",
               "RelativeToolTip": "ExerciciosDiversosOO\\Titular.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:29:00.904Z",
               "EditorCaption": ""
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ExerciciosDiversosOO.csproj",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj",
               "RelativeDocumentMoniker": "ExerciciosDiversosOO\\ExerciciosDiversosOO.csproj",
@@ -187,13 +187,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Program.cs",
               "RelativeDocumentMoniker": "ExerciciosDiversosOO\\Program.cs",
-              "ToolTip": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Program.cs*",
-              "RelativeToolTip": "ExerciciosDiversosOO\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Estudos\\Estudos\\AplicandoOrientacaoObjeto\\ExerciciosDiversosOO\\ExerciciosDiversosOO\\Program.cs",
+              "RelativeToolTip": "ExerciciosDiversosOO\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T15:32:16.347Z",
               "EditorCaption": ""

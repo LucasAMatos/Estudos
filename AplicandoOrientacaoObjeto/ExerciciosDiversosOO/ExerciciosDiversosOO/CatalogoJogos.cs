@@ -20,9 +20,15 @@ namespace ExerciciosDiversosOO
 
         public void AdicionarJogo(Jogo nome)
         {
-            JogosDisponiveis.Add(nome);
+            if (!JogosDisponiveis.Contains(nome))
+                JogosDisponiveis.Add(nome);
         }
 
+        public void RemoverJogo(Jogo nome)
+        {
+            if (JogosDisponiveis.Contains(nome))
+                JogosDisponiveis.Remove(nome);
+        }
         public void ExibirCatalogo()
         {
             Console.WriteLine($"lista de jogos disponíveis no catálogo {Nome}");
