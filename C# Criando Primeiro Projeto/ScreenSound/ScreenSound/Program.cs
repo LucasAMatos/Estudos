@@ -1,55 +1,15 @@
-﻿string mensagemDeBoasVindas = "Boas Vindas ao Screen Sound";
+﻿Musica musica1 = new Musica();
+musica1.Nome = "Roxane";
+musica1.Artista = "The Police";
+musica1.Duracao = 273;
+musica1.Disponivel = true;
+Console.WriteLine(musica1.DescricaoResumida);
 
-void ExibirMensagemDeBoasVindas()
-{
-    Console.WriteLine(@"
-░██████╗░█████╗░██████╗░███████╗███████╗███╗░░██╗  ░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░
-██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝████╗░██║  ██╔════╝██╔══██╗██║░░░██║████╗░██║██╔══██╗
-╚█████╗░██║░░╚═╝██████╔╝█████╗░░█████╗░░██╔██╗██║  ╚█████╗░██║░░██║██║░░░██║██╔██╗██║██║░░██║
-░╚═══██╗██║░░██╗██╔══██╗██╔══╝░░██╔══╝░░██║╚████║  ░╚═══██╗██║░░██║██║░░░██║██║╚████║██║░░██║
-██████╔╝╚█████╔╝██║░░██║███████╗███████╗██║░╚███║  ██████╔╝╚█████╔╝╚██████╔╝██║░╚███║██████╔╝
-╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝  ╚═════╝░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░
+Musica musica2 = new Musica();
+musica2.Nome = "Vertigo";
+musica2.Artista = "U2";
+musica2.Duracao = 367;
+musica2.Disponivel = false;
 
-");
-
-    Console.WriteLine($"{mensagemDeBoasVindas}\n\r");
-
-    ExibirOpcoesDoMenu();
-
-    Console.Write("Digite a sua opção:");
-    string opcaoEscolhida = Console.ReadLine()!;
-    int opcaoNumerica = int.Parse(opcaoEscolhida);
-
-    switch (opcaoNumerica)
-    {
-        case 1: 
-            Console.WriteLine("Você Digitou 1");
-            break;
-        case 2:
-            Console.WriteLine("Você Digitou 2");
-            break;
-        case 3:
-            Console.WriteLine("Você Digitou 3");
-            break;
-        case 4:
-            Console.WriteLine("Você Digitou 4");
-            break;
-        case 0:
-            Console.WriteLine("Tchau");
-            break;
-        default:
-            Console.WriteLine("ainda não tem essa opção");
-            break;
-    }
-}
-
-void ExibirOpcoesDoMenu()
-{
-    Console.WriteLine("1. Registrar Banda");
-    Console.WriteLine("2. Mostrar Banda");
-    Console.WriteLine("3. Avaliar Uma Banda");
-    Console.WriteLine("4. Média de uma Banda");
-    Console.WriteLine("0. Sair");
-    Console.WriteLine("");
-}
-ExibirMensagemDeBoasVindas();
+musica1.ExibirFichaTecnica();
+musica2.ExibirFichaTecnica();

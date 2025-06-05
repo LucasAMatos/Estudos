@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.destaque{
+    color: goldenrod;
+}
+.urgente{
+    color:red;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
