@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FBB1EA0-1BC1-413C-97D9-57D7FA608013}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FBB1EA0-1BC1-413C-97D9-57D7FA608013}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menusair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menusair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menuregistraralbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menuregistraralbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menuavaliarbanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menuavaliarbanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menuexibirdetalhes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menuexibirdetalhes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menuregistrarbanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menuregistrarbanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\estudos\\c# criando primeiro projeto\\screensound\\screensound\\menumostrarbandasregistradas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CCE41C-6657-42BF-AED4-F3F578033037}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\menumostrarbandasregistradas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{ba58fdf3-7af7-4b60-b69b-40ac68d83b75}"
@@ -37,6 +69,101 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuSair.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuSair.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\MenuSair.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuSair.cs",
+              "RelativeToolTip": "ScreenSound\\MenuSair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:48:04.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuMostrarBandasRegistradas.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuMostrarBandasRegistradas.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\MenuMostrarBandasRegistradas.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuMostrarBandasRegistradas.cs",
+              "RelativeToolTip": "ScreenSound\\MenuMostrarBandasRegistradas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:40:13.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuRegistrarAlbum.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuRegistrarAlbum.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\MenuRegistrarAlbum.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuRegistrarAlbum.cs",
+              "RelativeToolTip": "ScreenSound\\MenuRegistrarAlbum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:38:37.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuRegistrarBanda.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuRegistrarBanda.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\MenuRegistrarBanda.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuRegistrarBanda.cs",
+              "RelativeToolTip": "ScreenSound\\MenuRegistrarBanda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:36:51.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\Menu.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Menu.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\Menu.cs",
+              "RelativeToolTip": "ScreenSound\\Menu.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:32:49.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuAvaliarBanda.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuAvaliarBanda.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\MenuAvaliarBanda.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuAvaliarBanda.cs",
+              "RelativeToolTip": "ScreenSound\\MenuAvaliarBanda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:30:24.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuExibirDetalhes.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuExibirDetalhes.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\MenuExibirDetalhes.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\MenuExibirDetalhes.cs",
+              "RelativeToolTip": "ScreenSound\\MenuExibirDetalhes.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T23:25:45.974Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
@@ -44,9 +171,9 @@
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
               "ToolTip": "C:\\Estudos\\Estudos\\C# Criando Primeiro Projeto\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:57:58.12Z",
+              "WhenOpened": "2025-06-05T23:25:10.905Z",
               "EditorCaption": ""
             }
           ]
@@ -57,7 +184,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
