@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB79E39-D89C-4835-8ADA-04FD95421AB5}|PraticandoCSharp\\PraticandoCSharp.csproj|c:\\estudos\\estudos\\praticando c#\\praticandocsharp\\praticandocsharp\\exercisesswitchcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB79E39-D89C-4835-8ADA-04FD95421AB5}|PraticandoCSharp\\PraticandoCSharp.csproj|solutionrelative:praticandocsharp\\exercisesswitchcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB79E39-D89C-4835-8ADA-04FD95421AB5}|PraticandoCSharp\\PraticandoCSharp.csproj|c:\\estudos\\estudos\\praticando c#\\praticandocsharp\\praticandocsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB79E39-D89C-4835-8ADA-04FD95421AB5}|PraticandoCSharp\\PraticandoCSharp.csproj|solutionrelative:praticandocsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB79E39-D89C-4835-8ADA-04FD95421AB5}|PraticandoCSharp\\PraticandoCSharp.csproj|c:\\estudos\\estudos\\praticando c#\\praticandocsharp\\praticandocsharp\\exercisesifelse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB79E39-D89C-4835-8ADA-04FD95421AB5}|PraticandoCSharp\\PraticandoCSharp.csproj|solutionrelative:praticandocsharp\\exercisesifelse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ba58fdf3-7af7-4b60-b69b-40ac68d83b75}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExercisesSwitchCase.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\PraticandoCSharp\\ExercisesSwitchCase.cs",
+              "RelativeDocumentMoniker": "PraticandoCSharp\\ExercisesSwitchCase.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\PraticandoCSharp\\ExercisesSwitchCase.cs",
+              "RelativeToolTip": "PraticandoCSharp\\ExercisesSwitchCase.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAYwP0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:00:11.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExercisesIfElse.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\PraticandoCSharp\\ExercisesIfElse.cs",
+              "RelativeDocumentMoniker": "PraticandoCSharp\\ExercisesIfElse.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\PraticandoCSharp\\ExercisesIfElse.cs",
+              "RelativeToolTip": "PraticandoCSharp\\ExercisesIfElse.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwGoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:22:29.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\PraticandoCSharp\\Program.cs",
+              "RelativeDocumentMoniker": "PraticandoCSharp\\Program.cs",
+              "ToolTip": "C:\\Estudos\\Estudos\\Praticando C#\\PraticandoCSharp\\PraticandoCSharp\\Program.cs",
+              "RelativeToolTip": "PraticandoCSharp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:21:49.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 370,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

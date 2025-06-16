@@ -1,0 +1,15 @@
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\bin\Debug\net9.0\PraticandoCSharp.exe
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\bin\Debug\net9.0\PraticandoCSharp.deps.json
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\bin\Debug\net9.0\PraticandoCSharp.runtimeconfig.json
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\bin\Debug\net9.0\PraticandoCSharp.dll
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\bin\Debug\net9.0\PraticandoCSharp.pdb
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.AssemblyInfoInputs.cache
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.AssemblyInfo.cs
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.csproj.CoreCompileInputs.cache
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.sourcelink.json
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.dll
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\refint\PraticandoCSharp.dll
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.pdb
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\PraticandoCSharp.genruntimeconfig.cache
+C:\Estudos\Estudos\Praticando C#\PraticandoCSharp\PraticandoCSharp\obj\Debug\net9.0\ref\PraticandoCSharp.dll
