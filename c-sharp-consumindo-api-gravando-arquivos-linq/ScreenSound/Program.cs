@@ -1,14 +1,5 @@
-﻿Musica musica1 = new Musica();
-musica1.nome = "Roxane";
-musica1.artista = "The Police";
-musica1.duracao = 273;
-musica1.disponivel = true;
+﻿using ScreenSound.Models;
 
-Musica musica2 = new Musica();
-musica2.nome = "Vertigo";
-musica2.artista = "U2";
-musica2.duracao = 367;
-musica2.disponivel = false;
+var MeuPersonagem = Personagem_GOT.CarregarPersonagemPorID(16).Result;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+Console.WriteLine(MeuPersonagem.Nome);
