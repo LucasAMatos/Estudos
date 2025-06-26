@@ -15,6 +15,37 @@
           }
         }
       }
+    },
+    "/personagens/{faction}": {
+      "get": {
+        "operationId": "GetPersonagens2",
+        "parameters": [
+          {
+            "name": "faction",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "x-position": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/factions": {
+      "get": {
+        "operationId": "GetFactions",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
     }
   },
   "components": {}

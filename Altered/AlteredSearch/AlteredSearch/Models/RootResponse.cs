@@ -1,8 +1,9 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 
 namespace AlteredSearch.Models
 {
-    public class RootResponse
+    public class RootResponse<T>
     {
         [JsonPropertyName("@context")]
         public string Context { get; set; }
@@ -17,6 +18,7 @@ namespace AlteredSearch.Models
         public int HydraTotalItems { get; set; }
 
         [JsonPropertyName("hydra:member")]
-        public List<Card> HydraMember { get; set; }
+        public T HydraMember { get; set; }
+
     }
 }

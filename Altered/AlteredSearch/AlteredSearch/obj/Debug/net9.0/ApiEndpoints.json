@@ -1,12 +1,50 @@
 [
   {
     "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterEndpoints\u003Eb__0_3",
+    "RelativePath": "factions",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints\u002B\u003C\u003Ec",
     "Method": "\u003CRegisterEndpoints\u003Eb__0_1",
     "RelativePath": "personagens",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterEndpoints\u003Eb__0_2",
+    "RelativePath": "personagens/{faction}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faction",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Void",

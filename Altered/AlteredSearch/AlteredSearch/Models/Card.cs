@@ -14,4 +14,9 @@
         public CardSet CardSet { get; set; }
         public Faction MainFaction { get; set; }
     }
+
+    public class Cards :List<Card>
+    {
+        public List<string> GetAllFactions() => this.Select(f => f.Name).ToList() ?? [];
+    }
 }

@@ -1,4 +1,4 @@
-﻿using Refit;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AlteredSearch.Services
 {
@@ -37,10 +37,36 @@ namespace AlteredSearch.Services
 
             return personagens;
         }
+
+        public async Task<string> GetCharacterDetails(string idCharacter)
+        {
+            var response = await _apiClient.getCharacterDetail(idCharacter); //TO DO: AJUSTAR CLASSE PARA RECEBER CHAR
+
+            if (!response.IsSuccessStatusCode)
+                throw new Exception($"Erro ao buscar personagem {idCharacter}: {response.StatusCode}");
+
+            return response.Content;
+        }
+
+        public async Task<List<string>> GetFaction()
+        {
+            var response = await _apiClient.GetFactionsAsync();
+
+            if (!response.IsSuccessStatusCode)
+                throw new Exception($"Erro ao buscar facçoes: {response.StatusCode}");
+
+            var faction = response.Content.HydraMember.GetAllFactions();
+
+            faction.Sort();
+
+            return faction;
+        }
     }
 
     public interface IApiAlteredService
     {
         Task<List<string>> ListarTodosOsPersonagens();
+
+        Task<List<string>> GetFaction();
     }
 }
