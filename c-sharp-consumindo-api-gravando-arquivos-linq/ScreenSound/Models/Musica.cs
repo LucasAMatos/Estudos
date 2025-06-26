@@ -23,11 +23,8 @@ internal class Musica
     }
 }
 
-internal class Musicas : List<Musica> { 
-    public List<string> ListarTodosOsGeneros()
-    {
-        return new List<string>();
-    }
+internal class Musicas : List<Musica> {
+    public List<string> ListarTodosOsGenerosMusicais() => this.Select(static generos => generos.Genero).Distinct().ToList();
 
     public List<string> ListarArtistasOrdenadamente()
     {
