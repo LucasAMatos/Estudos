@@ -1,0 +1,6 @@
+@AlteredSearch_HostAddress = http://localhost:5277
+
+GET {{AlteredSearch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
