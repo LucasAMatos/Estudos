@@ -67,6 +67,31 @@
         }
       }
     },
+    "/Unicos": {
+      "post": {
+        "tags": [
+          "Personagens"
+        ],
+        "operationId": "PostUnicos",
+        "requestBody": {
+          "x-name": "request",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllUniquesByFactionAndNameRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
     "/factions": {
       "get": {
         "tags": [
@@ -81,5 +106,20 @@
       }
     }
   },
-  "components": {}
+  "components": {
+    "schemas": {
+      "GetAllUniquesByFactionAndNameRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "faction": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
 }

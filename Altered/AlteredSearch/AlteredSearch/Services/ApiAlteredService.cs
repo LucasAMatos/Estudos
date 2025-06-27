@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using AlteredSearch.Models;
-using Dynamitey;
+using AlteredSearch.Validator;
+using AlteredSearch.Models.Requests;
 
 namespace AlteredSearch.Services
 {
@@ -18,9 +19,13 @@ namespace AlteredSearch.Services
             var personagens = new List<string>();
             int page = 1, total = int.MaxValue;
 
-            while (personagens.Count < total)
+            do
             {
-                var response = await _apiClient.GetPersonagensAsync("CHARACTER", "COMMON", page);
+                var response = await _apiClient.GetPersonagensAsync(
+                    cardTypes: ["CHARACTER"],
+                    rarities: ["COMMON"],
+                    page: page
+                );
 
                 if (!response.IsSuccessStatusCode)
                     throw new Exception($"Erro ao buscar página {page}: {response.StatusCode}");
@@ -30,8 +35,10 @@ namespace AlteredSearch.Services
 
                 personagens.AddRange(content.HydraMember.Select(c => c.Name));
                 total = content.HydraTotalItems;
+
                 page++;
-            }
+
+            } while (personagens.Count < total);
 
             personagens = [.. personagens.Distinct()];
 
@@ -40,30 +47,57 @@ namespace AlteredSearch.Services
             return personagens;
         }
 
+        public async Task<List<string>> GetAllUniquesByFactionAndName(GetAllUniquesByFactionAndNameRequest request)
+        {
+
+            var result = new List<string>();
+            int page = 1, total = int.MaxValue;
+
+            do
+            {
+                var response = await _apiClient.GetPersonagensAsync(
+                    name: request.Name,
+                    cardTypes: ["CHARACTER"],
+                    rarities: ["UNIQUE"],
+                    factions: [request.Faction],
+                    page: page
+                );
+
+                if (!response.IsSuccessStatusCode)
+                    throw new Exception($"Erro ao buscar página {page}: {response.StatusCode}");
+
+                var content = response.Content;
+                if (content == null) break;
+
+                result.AddRange(content.HydraMember.Select(c => c.Reference));
+                total = content.HydraTotalItems;
+
+                page++;
+
+            } while (result.Count < total);
+
+            result = [.. result.Distinct()];
+
+            return result;
+        }
+
         public async Task<List<string>> ListAllCharsByFaction(string faction) => throw new NotImplementedException("rota não implementada");
         
         public async Task<CardSpecification> GetCharacterDetails(string idCharacter)
         {
             var response = await _apiClient.GetCharacterDetail(idCharacter);
 
-            if (!response.IsSuccessStatusCode)
-                throw new Exception($"Erro ao buscar personagem {idCharacter}: {response.StatusCode}");
-
-            return response.Content;
+            return response.EnsureSuccess();
         }
 
         public async Task<List<string>> ListAllFactions()
         {
             var response = await _apiClient.GetFactionsAsync();
 
-            if (!response.IsSuccessStatusCode)
-                throw new Exception($"Erro ao buscar facçoes: {response.StatusCode}");
+            var factions = response.EnsureSuccess().HydraMember.GetAllFactions();
+            factions.Sort();
 
-            var faction = response.Content.HydraMember.GetAllFactions();
-
-            faction.Sort();
-
-            return faction;
+            return factions;
         }
     }
 
@@ -72,6 +106,8 @@ namespace AlteredSearch.Services
         Task<List<string>> ListAllChars();
 
         Task<List<string>> ListAllCharsByFaction(string faction);
+
+        Task<List<string>> GetAllUniquesByFactionAndName(GetAllUniquesByFactionAndNameRequest request);
 
         Task<List<string>> ListAllFactions();
 

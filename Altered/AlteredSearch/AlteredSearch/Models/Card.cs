@@ -34,8 +34,8 @@ public class Card
     [JsonProperty("imagePath")]
     public string ImagePath { get; set; }
 
-    [JsonProperty("assets")]
-    public Assets Assets { get; set; }
+    //[JsonProperty("assets")]
+    //public Assets Assets { get; set; }
 
     [JsonProperty("lowerPrice")]
     public int LowerPrice { get; set; }

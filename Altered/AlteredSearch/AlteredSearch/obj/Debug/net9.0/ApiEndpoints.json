@@ -86,5 +86,30 @@
     "Tags": [
       "Personagens"
     ]
+  },
+  {
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "Method": "GetAllUniquesByFactionAndName",
+    "RelativePath": "Unicos",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AlteredSearch.Models.Requests.GetAllUniquesByFactionAndNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Personagens"
+    ]
   }
 ]
