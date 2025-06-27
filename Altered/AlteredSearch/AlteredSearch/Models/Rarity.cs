@@ -1,9 +1,21 @@
-﻿namespace AlteredSearch.Models
+﻿using Newtonsoft.Json;
+
+namespace AlteredSearch.Models;
+
+public class Rarity
 {
-    public class Rarity
-    {
-        public string Id { get; set; }
-        public string Reference { get; set; }
-        public string Name { get; set; }
-    }
+    [JsonProperty("@id")]
+    public string IdUrl { get; set; }
+
+    [JsonProperty("@type")]
+    public string Type { get; set; }
+
+    [JsonProperty("reference")]
+    public string Reference { get; set; }
+
+    [JsonProperty("id")]
+    public string Id { get; set; }
+
+    [JsonProperty("name")]
+    public string Name { get; set; }
 }

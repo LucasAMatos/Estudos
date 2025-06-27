@@ -13,7 +13,7 @@ public interface IAlteredApi
     );
 
     [Get("/cards/{id}")]
-    Task<ApiResponse<RootResponse<Cards>>> getCharacterDetail(
+    Task<ApiResponse<CardSpecification>> GetCharacterDetail(
         [AliasAs("id")] string idCard
     );
 

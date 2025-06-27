@@ -8,6 +8,9 @@
   "paths": {
     "/personagens": {
       "get": {
+        "tags": [
+          "Personagens"
+        ],
         "operationId": "GetPersonagens",
         "responses": {
           "200": {
@@ -18,6 +21,9 @@
     },
     "/personagens/{faction}": {
       "get": {
+        "tags": [
+          "Personagens"
+        ],
         "operationId": "GetPersonagens2",
         "parameters": [
           {
@@ -37,8 +43,35 @@
         }
       }
     },
+    "/personagemPorId/{idCharacter}": {
+      "get": {
+        "tags": [
+          "Personagens"
+        ],
+        "operationId": "GetPersonagemPorId",
+        "parameters": [
+          {
+            "name": "idCharacter",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "x-position": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
     "/factions": {
       "get": {
+        "tags": [
+          "Facções"
+        ],
         "operationId": "GetFactions",
         "responses": {
           "200": {

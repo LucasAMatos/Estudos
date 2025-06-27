@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using AlteredSearch.Models;
+using Dynamitey;
 
 namespace AlteredSearch.Services
 {
@@ -11,7 +13,7 @@ namespace AlteredSearch.Services
             _apiClient = apiClient ?? throw new ArgumentNullException(nameof(apiClient));
         }
 
-        public async Task<List<string>> ListarTodosOsPersonagens()
+        public async Task<List<string>> ListAllChars()
         {
             var personagens = new List<string>();
             int page = 1, total = int.MaxValue;
@@ -38,9 +40,11 @@ namespace AlteredSearch.Services
             return personagens;
         }
 
-        public async Task<string> GetCharacterDetails(string idCharacter)
+        public async Task<List<string>> ListAllCharsByFaction(string faction) => throw new NotImplementedException("rota não implementada");
+        
+        public async Task<CardSpecification> GetCharacterDetails(string idCharacter)
         {
-            var response = await _apiClient.getCharacterDetail(idCharacter); //TO DO: AJUSTAR CLASSE PARA RECEBER CHAR
+            var response = await _apiClient.GetCharacterDetail(idCharacter);
 
             if (!response.IsSuccessStatusCode)
                 throw new Exception($"Erro ao buscar personagem {idCharacter}: {response.StatusCode}");
@@ -48,7 +52,7 @@ namespace AlteredSearch.Services
             return response.Content;
         }
 
-        public async Task<List<string>> GetFaction()
+        public async Task<List<string>> ListAllFactions()
         {
             var response = await _apiClient.GetFactionsAsync();
 
@@ -65,8 +69,12 @@ namespace AlteredSearch.Services
 
     public interface IApiAlteredService
     {
-        Task<List<string>> ListarTodosOsPersonagens();
+        Task<List<string>> ListAllChars();
 
-        Task<List<string>> GetFaction();
+        Task<List<string>> ListAllCharsByFaction(string faction);
+
+        Task<List<string>> ListAllFactions();
+
+        Task<CardSpecification> GetCharacterDetails(string idCharacter);
     }
 }

@@ -1,7 +1,7 @@
 [
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints\u002B\u003C\u003Ec",
-    "Method": "\u003CRegisterEndpoints\u003Eb__0_3",
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "Method": "GetAllFactions",
     "RelativePath": "factions",
     "HttpMethod": "GET",
     "IsController": false,
@@ -13,11 +13,39 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Fac\u00E7\u00F5es"
     ]
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints\u002B\u003C\u003Ec",
-    "Method": "\u003CRegisterEndpoints\u003Eb__0_1",
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "Method": "GetDetailsCharacter",
+    "RelativePath": "personagemPorId/{idCharacter}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCharacter",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Personagens"
+    ]
+  },
+  {
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "Method": "GetAllCharacter",
     "RelativePath": "personagens",
     "HttpMethod": "GET",
     "IsController": false,
@@ -29,11 +57,14 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Personagens"
     ]
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints\u002B\u003C\u003Ec",
-    "Method": "\u003CRegisterEndpoints\u003Eb__0_2",
+    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "Method": "GetAllCharactersByFaction",
     "RelativePath": "personagens/{faction}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -51,6 +82,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Personagens"
     ]
   }
 ]
