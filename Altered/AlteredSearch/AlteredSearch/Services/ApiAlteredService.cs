@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using AlteredSearch.Interface;
 using AlteredSearch.Models;
 using AlteredSearch.Validator;
 using AlteredSearch.Models.Requests;

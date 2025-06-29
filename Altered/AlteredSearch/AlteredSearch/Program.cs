@@ -4,12 +4,8 @@ using AlteredSearch.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adiciona serviços do Swagger (NSwag)
-builder.Services.AddEndpointsApiExplorer(); // opcional com NSwag, mas não atrapalha
-builder.Services.AddOpenApiDocument(config =>
-{
-    config.Title = "Altered API SearchText";
-});
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.ConfigureApiServices();
 
 // Adiciona o factory
 builder.Services.AddScoped<IApiAlteredService, ApiAlteredService>();
@@ -18,10 +14,12 @@ builder.ConfigureRefit();
 
 var app = builder.Build();
 
-app.AddOpenApiServices();
+app.ConfigureApiPipeline();
 
 app.UseHttpsRedirection();
 
-app.RegisterEndpoints();
+app.MapPersonagensEndpoints();
+
+app.MapFactionsEndpoints();
 
 app.Run();

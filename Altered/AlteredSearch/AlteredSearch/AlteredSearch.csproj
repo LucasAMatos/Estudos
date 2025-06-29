@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Argolis.Hydra.Nancy" Version="0.8.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
     <PackageReference Include="NSwag.AspNetCore" Version="14.4.0" />
     <PackageReference Include="NSwag.SwaggerGeneration.AspNetCore" Version="12.3.0" />
+    <PackageReference Include="Ogu.FluentValidation.AspNetCore.Attribute" Version="1.0.5" />
     <PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
   </ItemGroup>
 

@@ -1,7 +1,8 @@
-﻿namespace AlteredSearch.Helpers;
+﻿using AlteredSearch.Interface;
 using Refit;
 using System.Net.Http.Headers;
 
+namespace AlteredSearch.Helpers;
 internal static class ConfigureRefitHelper
 {
     public static WebApplicationBuilder ConfigureRefit(this WebApplicationBuilder _build)

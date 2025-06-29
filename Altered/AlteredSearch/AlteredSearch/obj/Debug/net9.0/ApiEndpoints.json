@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "ContainingType": "AlteredSearch.EndPoints.FactionsEndpoints",
     "Method": "GetAllFactions",
-    "RelativePath": "factions",
+    "RelativePath": "api/v1/factions",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -19,9 +19,9 @@
     ]
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "ContainingType": "AlteredSearch.EndPoints.PersonagensEndpoints",
     "Method": "GetDetailsCharacter",
-    "RelativePath": "personagemPorId/{idCharacter}",
+    "RelativePath": "api/v1/personagem/{idCharacter}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -41,12 +41,13 @@
     ],
     "Tags": [
       "Personagens"
-    ]
+    ],
+    "EndpointName": "Detalhes de um personagem por ID."
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "ContainingType": "AlteredSearch.EndPoints.PersonagensEndpoints",
     "Method": "GetAllCharacter",
-    "RelativePath": "personagens",
+    "RelativePath": "api/v1/personagens",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -60,12 +61,13 @@
     ],
     "Tags": [
       "Personagens"
-    ]
+    ],
+    "EndpointName": "ListarPersonagens"
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "ContainingType": "AlteredSearch.EndPoints.PersonagensEndpoints",
     "Method": "GetAllCharactersByFaction",
-    "RelativePath": "personagens/{faction}",
+    "RelativePath": "api/v1/personagens/{faction}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -85,12 +87,13 @@
     ],
     "Tags": [
       "Personagens"
-    ]
+    ],
+    "EndpointName": "Lista personagens por fac\u00E7\u00E3o."
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.AlteredSearchEndPoints",
+    "ContainingType": "AlteredSearch.EndPoints.PersonagensEndpoints",
     "Method": "GetAllUniquesByFactionAndName",
-    "RelativePath": "Unicos",
+    "RelativePath": "api/v1/personagens/unicos",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -110,6 +113,7 @@
     ],
     "Tags": [
       "Personagens"
-    ]
+    ],
+    "EndpointName": "Filtra personagens \u00FAnicos por fac\u00E7\u00E3o e nome"
   }
 ]

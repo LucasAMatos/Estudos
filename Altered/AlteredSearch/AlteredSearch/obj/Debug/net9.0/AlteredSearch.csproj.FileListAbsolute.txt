@@ -61,9 +61,6 @@ C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredS
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.MvcApplicationPartsAssemblyInfo.cs
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.MvcApplicationPartsAssemblyInfo.cache
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.sourcelink.json
-C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.dll
-C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\refint\AlteredSearch.dll
-C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.pdb
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\bin\Debug\net9.0\appsettings.Development.json
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\bin\Debug\net9.0\appsettings.json
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\bin\Debug\net9.0\AlteredSearch.staticwebassets.endpoints.json
@@ -117,5 +114,8 @@ C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\staticwe
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredS.5669E438.Up2Date
+C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.dll
+C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\refint\AlteredSearch.dll
+C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.pdb
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\AlteredSearch.genruntimeconfig.cache
 C:\Estudos\Estudos\Altered\AlteredSearch\AlteredSearch\obj\Debug\net9.0\ref\AlteredSearch.dll

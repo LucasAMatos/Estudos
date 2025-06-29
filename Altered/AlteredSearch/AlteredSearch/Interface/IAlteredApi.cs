@@ -1,6 +1,8 @@
 ﻿using AlteredSearch.Models;
 using Refit;
 
+namespace AlteredSearch.Interface;
+
 public interface IAlteredApi
 {
     [Get("/cards")]
