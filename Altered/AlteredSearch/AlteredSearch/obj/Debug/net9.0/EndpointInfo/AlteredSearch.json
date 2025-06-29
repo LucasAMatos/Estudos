@@ -68,10 +68,23 @@
         }
       }
     },
-    "/api/v1/personagens/unicos": {
+    "/api/v1/factions": {
+      "get": {
+        "tags": [
+          "Facções"
+        ],
+        "operationId": "GetApiV1Factions",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/api/v1/unicos": {
       "post": {
         "tags": [
-          "Personagens"
+          "Unicas"
         ],
         "operationId": "Filtra personagens únicos por facção e nome",
         "requestBody": {
@@ -91,14 +104,23 @@
             "description": ""
           }
         }
-      }
-    },
-    "/api/v1/factions": {
+      },
       "get": {
         "tags": [
-          "Facções"
+          "Unicas"
         ],
-        "operationId": "GetApiV1Factions",
+        "operationId": "Retorna referenciade unico pelo nome",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "x-position": 1
+          }
+        ],
         "responses": {
           "200": {
             "description": ""

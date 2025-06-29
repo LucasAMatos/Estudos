@@ -91,9 +91,9 @@
     "EndpointName": "Lista personagens por fac\u00E7\u00E3o."
   },
   {
-    "ContainingType": "AlteredSearch.EndPoints.PersonagensEndpoints",
+    "ContainingType": "AlteredSearch.EndPoints.UnicasEndpoints",
     "Method": "GetAllUniquesByFactionAndName",
-    "RelativePath": "api/v1/personagens/unicos",
+    "RelativePath": "api/v1/unicos",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -112,8 +112,34 @@
       }
     ],
     "Tags": [
-      "Personagens"
+      "Unicas"
     ],
     "EndpointName": "Filtra personagens \u00FAnicos por fac\u00E7\u00E3o e nome"
+  },
+  {
+    "ContainingType": "AlteredSearch.EndPoints.UnicasEndpoints",
+    "Method": "GetIDUnicosByName",
+    "RelativePath": "api/v1/unicos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Unicas"
+    ],
+    "EndpointName": "Retorna referenciade unico pelo nome"
   }
 ]

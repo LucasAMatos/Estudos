@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlteredSearch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d18407e10ef7dc5ca753f4fc749a876a90727638")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af16c08ed6c38f066694ce1aa2c52d174502ce1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlteredSearch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlteredSearch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

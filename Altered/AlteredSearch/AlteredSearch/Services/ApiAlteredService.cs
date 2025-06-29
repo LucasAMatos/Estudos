@@ -2,6 +2,7 @@
 using AlteredSearch.Models;
 using AlteredSearch.Validator;
 using AlteredSearch.Models.Requests;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AlteredSearch.Services
 {
@@ -99,6 +100,23 @@ namespace AlteredSearch.Services
 
             return factions;
         }
+
+        public async Task<string> GetIDUniqueByName(string pName)
+        {
+            var response = await _apiClient.GetPersonagensAsync(
+                cardTypes: ["CHARACTER"],
+                rarities: ["UNIQUE"],
+                name: pName
+            );
+
+            var content = response.EnsureSuccess().Returned("HydraMember");
+
+            var referencia = content.HydraMember.First().Reference;
+
+            return string.Join("_",    referencia
+                .Split('_')
+                .TakeWhile(part => !int.TryParse(part, out _))) + "_"; ;
+        }
     }
 
     public interface IApiAlteredService
@@ -108,6 +126,8 @@ namespace AlteredSearch.Services
         Task<List<string>> ListAllCharsByFaction(string faction);
 
         Task<List<string>> GetAllUniquesByFactionAndName(GetAllUniquesByFactionAndNameRequest request);
+
+        Task<string> GetIDUniqueByName(string name);
 
         Task<List<string>> ListAllFactions();
 

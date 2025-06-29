@@ -19,7 +19,7 @@ app.ConfigureApiPipeline();
 app.UseHttpsRedirection();
 
 app.MapPersonagensEndpoints();
-
 app.MapFactionsEndpoints();
+app.MapUnicasEndpoints();
 
 app.Run();

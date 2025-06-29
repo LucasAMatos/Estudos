@@ -22,11 +22,6 @@ public static class PersonagensEndpoints
             .WithTags("Personagens")
             .WithName("Detalhes de um personagem por ID.");
 
-        routes.MapPost("/api/v1/personagens/unicos", GetAllUniquesByFactionAndName)
-            .WithTags("Personagens")
-            .WithName("Filtra personagens únicos por facção e nome")
-            .Accepts<GetAllUniquesByFactionAndNameRequest>("application/json");
-
 
         return routes;
     }
@@ -39,9 +34,4 @@ public static class PersonagensEndpoints
 
     private static async Task<IResult> GetDetailsCharacter([FromServices] IApiAlteredService api, string idCharacter) =>
         await HandlerEndPoints.HandleRequest(() => api.GetCharacterDetails(idCharacter));
-
-    private static async Task<IResult> GetAllUniquesByFactionAndName(
-        [FromServices] IApiAlteredService api,
-        [FromBody] GetAllUniquesByFactionAndNameRequest request) =>
-        await HandlerEndPoints.HandleRequest(() => api.GetAllUniquesByFactionAndName(request));
 }
