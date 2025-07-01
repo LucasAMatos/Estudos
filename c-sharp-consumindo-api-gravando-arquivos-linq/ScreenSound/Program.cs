@@ -1,5 +1,12 @@
 ﻿using ScreenSound.Models;
+using System.Text.Json;
 
-var MeuPersonagem = Personagem_GOT.CarregarPersonagemPorID(16).Result;
+HttpClient client = new HttpClient();
 
-Console.WriteLine(MeuPersonagem.Nome);
+string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
+var musicas = JsonSerializer.Deserialize<Musicas>(resposta);
+
+foreach (Musica musica in musicas.ListarMusicasDeUmArtista("U2"))
+{
+    Console.WriteLine($"{musica.Nome}");
+}

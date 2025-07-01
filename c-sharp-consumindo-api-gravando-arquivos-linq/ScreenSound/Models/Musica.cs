@@ -26,18 +26,9 @@ internal class Musica
 internal class Musicas : List<Musica> {
     public List<string> ListarTodosOsGenerosMusicais() => this.Select(static generos => generos.Genero).Distinct().ToList();
 
-    public List<string> ListarArtistasOrdenadamente()
-    {
-        return new List<string>();
-    }
+    public List<string> ListarArtistasOrdenadamente() => this.OrderBy(m => m.Artista).Select(m => m.Artista).Distinct().ToList();
 
-    public List<string> ListarTodosOsArtistasDGeneroMusical()
-    {
-        return new List<string>();
-    }
+    public List<string> ListarTodosOsArtistasDGeneroMusical(string genero) => this.Where(musicas => genero.Contains(genero)).Select(musica => musica.Artista).Distinct().ToList();
 
-    public List<Musica> ListarMusicasDeUmArtista()
-    {
-        return new List<Musica>();
-    }
+    public List<Musica> ListarMusicasDeUmArtista(string artista) => this.Where(musica => musica.Artista.Equals(artista)).ToList();
 }
